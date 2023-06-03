@@ -18,14 +18,13 @@ public class MainPrototype {
 		person.setPersonAadhar(sc.next());
 		System.out.println("Please enter the persons address");
 		person.setPersonAddress(sc.next());
-		
+		System.out.println(person);
         System.out.println(person.hashCode());
-        person.toString();
         
         Person personAnother= person.getPersonClass();
-       
+        System.out.println(personAnother);
 	    System.out.println(personAnother.hashCode());
-	    personAnother.toString();
+
 		
 	}
 
