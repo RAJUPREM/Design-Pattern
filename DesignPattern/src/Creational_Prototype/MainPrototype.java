@@ -12,7 +12,6 @@ public class MainPrototype {
 		System.out.println("Please enter the persons name");
 		String personName=sc.nextLine();
 		person.setPersonName(personName);
-//		sc.next();
 		System.out.println("Please enter the persons age");
 		person.setPersonAge(sc.nextInt());
 		System.out.println("Please enter the persons aadhar");
@@ -20,13 +19,13 @@ public class MainPrototype {
 		System.out.println("Please enter the persons address");
 		person.setPersonAddress(sc.next());
 		
-        System.out.println(person);
+        System.out.println(person.hashCode());
         person.toString();
         
-       Person personAnother= person.getPersonClass();
+        Person personAnother= person.getPersonClass();
        
-       System.out.println(personAnother);
-       personAnother.toString();
+	    System.out.println(personAnother.hashCode());
+	    personAnother.toString();
 		
 	}
 

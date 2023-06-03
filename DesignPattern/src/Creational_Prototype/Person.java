@@ -13,7 +13,7 @@ public class Person {
 	}
 	public Person() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	String personName;
 	int personAge;
@@ -46,14 +46,9 @@ public class Person {
 	
 	public Person getPersonClass()
 	{
-		if(person==null)
-		{
+		
 			return new Person(personName,personAge,personAadhar,personAddress);
-		}
-		else
-		{
-			return person;
-		}
+		
 	}
 	@Override
 	public String toString() {
