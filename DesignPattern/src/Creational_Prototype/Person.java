@@ -15,10 +15,10 @@ public class Person {
 		super();
 		
 	}
-	String personName;
-	int personAge;
-	String personAadhar;
-	String personAddress;
+	private String personName;
+	private int personAge;
+	private String personAadhar;
+	private String personAddress;
 	public String getPersonName() {
 		return personName;
 	}
